@@ -1,0 +1,36 @@
+POST http://ec2-52-196-238-46.ap-northeast-1.compute.amazonaws.com/api/provider/register HTTP/1.1
+content-type: application/json
+Accept: application/json
+
+
+{
+    "device_id" : "12313123",
+    "device_type" : "android",
+    "device_token" : "dfsdfsdf",
+    "first_name" : "test",
+    "last_name" : "test",
+    "email" : "hk1@gmail.com",
+    "country_code" : "+91",
+    "mobile" : "9566844027",
+    "password" : "password",
+    "password_confirmation" : "password"
+}
+
+###
+POST http://ec2-52-196-238-46.ap-northeast-1.compute.amazonaws.com/api/provider/oauth/token HTTP/1.1
+content-type: application/json
+Accept: application/json
+
+{
+    "device_id" : "12313123",
+    "device_type" : "android",
+    "device_token" : "dfsdfsdf",
+    "mobile" : "9848810891",
+    "password" : "password"
+}
+
+###
+GET  http://ec2-52-196-238-46.ap-northeast-1.compute.amazonaws.com/api/provider/reasons HTTP/1.1
+content-type: application/json
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vc2VydmljZW1hcmlvLnRlc3QvYXBpL3Byb3ZpZGVyL3JlZ2lzdGVyIiwiaWF0IjoxNjM4NTA0ODM2LCJleHAiOjE2Mzg4NjQ4MzYsIm5iZiI6MTYzODUwNDgzNiwianRpIjoiV21OM2taaTd3ZFNmOXAxVSIsInN1YiI6NjMsInBydiI6ImIzNjhmYzBiNWEwYmU5ODFiMWQ5MGIxMDQ5NThlODY2YmRmNjBkNWIifQ.JUIKBHEnqrciW30QMZTsCWBGn0DJNNK6HASGOMf38s8

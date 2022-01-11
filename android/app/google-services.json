@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "596591748477",
+    "firebase_url": "https://service-mario-10aa1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "service-mario-10aa1",
+    "storage_bucket": "service-mario-10aa1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596591748477:android:0d428212bdda8a80465814",
+        "android_client_info": {
+          "package_name": "com.example.mario_service"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596591748477-vm7b17qgrj1a4of6a33i36chjlo4c2vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABq7MPgFWSsEtsEbpK7xI_AVGqBwTxLVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596591748477-vm7b17qgrj1a4of6a33i36chjlo4c2vc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "596591748477-q9jd97v42agprukaq8h5aii47qn8nna9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.servicemario.serviceMario"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596591748477:android:e322a79caa4b5268465814",
+        "android_client_info": {
+          "package_name": "com.service_mario.provider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596591748477-vm7b17qgrj1a4of6a33i36chjlo4c2vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABq7MPgFWSsEtsEbpK7xI_AVGqBwTxLVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596591748477-vm7b17qgrj1a4of6a33i36chjlo4c2vc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "596591748477-q9jd97v42agprukaq8h5aii47qn8nna9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.servicemario.serviceMario"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596591748477:android:0da1a71c249b7b08465814",
+        "android_client_info": {
+          "package_name": "com.service_mario.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596591748477-vm7b17qgrj1a4of6a33i36chjlo4c2vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABq7MPgFWSsEtsEbpK7xI_AVGqBwTxLVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596591748477-vm7b17qgrj1a4of6a33i36chjlo4c2vc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "596591748477-q9jd97v42agprukaq8h5aii47qn8nna9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.servicemario.serviceMario"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

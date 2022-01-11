@@ -1,0 +1,123 @@
+name: mario_service
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_svg:
+  adobe_xd: ^2.0.0+1
+  dio: ^4.0.0
+  http: 
+  auto_route: ^1.0.1
+  carousel_slider: ^4.0.0
+  flutter_bloc: ^7.0.1
+  dartz: ^0.9.2
+  data_connection_checker: ^0.3.4
+  get_it: ^7.1.3
+  equatable: ^2.0.3
+  shared_preferences: ^2.0.6
+  cached_network_image: ^3.0.0
+  geolocator: ^7.2.0
+  geocoder: ^0.2.1
+  intl: ^0.17.0
+  pull_to_refresh:
+  image_picker: ^0.8.1+3
+  url_launcher: ^6.0.3
+  google_maps_flutter: ^2.0.6
+  another_flushbar: ^1.10.23
+  share: ^2.0.4
+  flutter_inappwebview: ^5.3.2
+  device_info_plus: ^2.0.1
+  firebase_core: ^1.3.0
+  firebase_messaging: ^10.0.2
+  flutter_polyline_points: ^1.0.0
+  flutter_rating_bar: ^4.0.0
+  firebase_database: ^7.1.2
+  wakelock: ^0.5.2
+  stop_watch_timer:
+  geocoding: ^2.0.0
+  overlay_support: 1.0.5
+  salomon_bottom_bar: ^3.1.0
+  carousel_indicator: 
+  getwidget: ^2.0.4
+  flutter_local_notifications: 
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: 
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+  auto_route_generator: ^1.0.2
+  build_runner:
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icon/icon.png
+    - assets/icon/test.svg
+    - assets/icon/google_map_icon.png
+    - assets/google_map_style.txt
+    - assets/icon/share.svg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Metropolis
+      fonts:
+        - asset: assets/fonts/metropolis/Metropolis-Regular.otf
+    - family: Cabin
+      fonts:
+        - asset: assets/fonts/cabin/Cabin-Regular.ttf
+    - family: Segoe
+      fonts:
+        - asset: assets/fonts/segoe_ui/Segoe.TTF
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
